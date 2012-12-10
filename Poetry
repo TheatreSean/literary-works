@@ -1,2 +1,20 @@
-Poetry
-===============
+### Poetry
+====================
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Poem```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ideogramme```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Rhyme```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Verse```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/BlankVerse```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/FreeVerse```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/ConcreteVerse```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Sonnet```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Couplet```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ballad```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Haiku```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Tanka```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Limerick```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ode```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ghazal```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Villanelle```
+* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Shi```
