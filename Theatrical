@@ -1,1 +1,8 @@
-Theatrical
+### Theatrical
+====================
+* ```http://schema.org/CreativeWork/LiteraryWork/Play```
+* ```http://schema.org/CreativeWork/LiteraryWork/Play/playAct```
+* ```http://schema.org/CreativeWork/LiteraryWork/Play/playScene```
+* ```http://schema.org/CreativeWork/LiteraryWork/Play/musicalBook```
+* ```http://schema.org/CreativeWork/LiteraryWork/SongLyric```
+* ```http://schema.org/CreativeWork/LiteraryWork/Libretto```
