@@ -1,1 +1,9 @@
-Story
+### Story
+====================
+* ```http://schema.org/CreativeWork/LiteraryWork/Story```
+* ```http://schema.org/CreativeWork/LiteraryWork/Story/storyChapter```
+* ```http://schema.org/CreativeWork/LiteraryWork/ShortStory```
+* ```http://schema.org/CreativeWork/LiteraryWork/Parable```
+* ```http://schema.org/CreativeWork/LiteraryWork/Fable```
+* ```http://schema.org/CreativeWork/LiteraryWork/FolkTale```
+* ```http://schema.org/CreativeWork/LiteraryWork/Prose```
