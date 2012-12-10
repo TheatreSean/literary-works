@@ -1,1 +1,9 @@
-Nonfiction
+### Nonfiction
+====================
+* ```http://schema.org/CreativeWork/LiteraryWork/Epistle```
+* ```http://schema.org/CreativeWork/LiteraryWork/Memoir```
+* ```http://schema.org/CreativeWork/LiteraryWork/Biography```
+* ```http://schema.org/CreativeWork/LiteraryWork/Autobiography```
+* ```http://schema.org/CreativeWork/LiteraryWork/Essay```
+* ```http://schema.org/CreativeWork/LiteraryWork/Elegy```
+* ```http://schema.org/CreativeWork/LiteraryWork/Satire```
