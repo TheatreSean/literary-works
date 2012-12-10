@@ -1,7 +1,7 @@
 Literary Works
 ==============
 
-Microdata schemas lack microdata specific towards literary works published on websites that are not in book form.
+Microdata schemas lack microdata specific towards literary works - that are not in book form - published on websites.
 
 [Schema.org](http://schema.org) offers a simple method for extending their core microdata classes and properties. [The Type Hierarchy](http://schema.org/docs/full.html) shows the current microdata hierarchy in a single file.
 
