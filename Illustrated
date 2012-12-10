@@ -1,1 +1,7 @@
-Illustrated
+### Illustrated
+====================
+* ```http://schema.org/CreativeWork/LiteraryWork/ChildrensBook```
+* ```http://schema.org/CreativeWork/LiteraryWork/GraphicNovel```
+* ```http://schema.org/CreativeWork/LiteraryWork/ComicBook```
+* ```http://schema.org/CreativeWork/LiteraryWork/Comic```
+* ```http://schema.org/CreativeWork/LiteraryWork/Manga```
