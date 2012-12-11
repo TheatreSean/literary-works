@@ -76,7 +76,49 @@ The following are the currently proposed extensions. However, it is by no means 
 * ```http://schema.org/CreativeWork/LiteraryWork/Libretto```
 
 
+## Examples - Microdata + HTML 5
+====================
+### Used in a sentence:
+```
+<p itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/FreeVerse">
+  <span itemprop="name" lang="fr">Un Coup de Dés Jamais N'Abolira Le Hasard</span>—
+  <link itemprop="url" href="http://coupdedes.com/">
+  by <span itemprop="author" lang="fr">Stéphane Mallarmé</span> is one of the finest examples of free verse.
+</p>
+```
 
+### Used in a navigation link:
+```
+[ ... ]
+<li>
+<b><span lang=fr>VERS</span></b> : <span itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/Story/Chapter"><a href="/oculus/1/1#oculusWorkTitle-page" itemprop="name">Zo&#235;; or, On the Clockwork Spheres of Paradise [<span lang=fr>Notre-Dame-de-Gr&#226;ce</span>]</a></span>.
+</li>
+[ ... ]
+```
+
+### Used in a single page:
+```
+<div itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork">
+<p><span itemprop="name">Ozymandias</span><br>
+by <span itemprop="author">Percy Bysshe Shelley</span><br>
+[Published <meta itemprop="datePublished" content="1818-01-11">January 11, 1818]</p>
+<p itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/Poetry/Sonnet"> 
+I met a traveller from an antique land<br>
+Who said: Two vast and trunkless legs of stone<br>
+Stand in the desert...Near them, on the sand,<br>
+Half sunk, a shattered visage lies, whose frown,<br>
+And wrinkled lip, and sneer of cold command,<br>
+Tell that its sculptor well those passions read<br>
+Which yet survive, stamped on these lifeless things,<br>
+The hand that mocked them, and the heart that fed:<br>
+And on the pedestal these words appear:<br>
+"My name is Ozymandias, king of kings:<br>
+Look on my works, ye Mighty, and despair!"<br>
+Nothing beside remains. Round the decay<br>
+Of that colossal wreck, boundless and bare<br>
+The lone and level sands stretch far away.<p>
+</div>
+```
 
 
 ## License
