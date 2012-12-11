@@ -121,7 +121,52 @@
 <li><code>http://schema.org/CreativeWork/LiteraryWork/Play/musicalBook</code></li>
 <li><code>http://schema.org/CreativeWork/LiteraryWork/SongLyric</code></li>
 <li><code>http://schema.org/CreativeWork/LiteraryWork/Libretto</code></li>
-</ul><h2>License</h2>
+</ul><h2>Examples - Microdata + HTML 5</h2>
+
+<h1></h1>
+
+<h3>Used in a sentence:</h3>
+
+<pre><code>&lt;p itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/FreeVerse"&gt;
+  &lt;span itemprop="name" lang="fr"&gt;Un Coup de Dés Jamais N'Abolira Le Hasard&lt;/span&gt;—
+  &lt;link itemprop="url" href="http://coupdedes.com/"&gt;
+  by &lt;span itemprop="author" lang="fr"&gt;Stéphane Mallarmé&lt;/span&gt; is one of the finest examples of free verse.
+&lt;/p&gt;
+</code></pre>
+
+<h3>Used in a navigation link:</h3>
+
+<pre><code>[ ... ]
+&lt;li&gt;
+&lt;b&gt;&lt;span lang=fr&gt;VERS&lt;/span&gt;&lt;/b&gt; : &lt;span itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/Story/Chapter"&gt;&lt;a href="/oculus/1/1#oculusWorkTitle-page" itemprop="name"&gt;Zo&amp;#235;; or, On the Clockwork Spheres of Paradise [&lt;span lang=fr&gt;Notre-Dame-de-Gr&amp;#226;ce&lt;/span&gt;]&lt;/a&gt;&lt;/span&gt;.
+&lt;/li&gt;
+[ ... ]
+</code></pre>
+
+<h3>Used in a single page:</h3>
+
+<pre><code>&lt;div itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork"&gt;
+&lt;p&gt;&lt;span itemprop="name"&gt;Ozymandias&lt;/span&gt;&lt;br&gt;
+by &lt;span itemprop="author"&gt;Percy Bysshe Shelley&lt;/span&gt;&lt;br&gt;
+[Published &lt;meta itemprop="datePublished" content="1818-01-11"&gt;January 11, 1818]&lt;/p&gt;
+&lt;p itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/Poetry/Sonnet"&gt; I met a traveller from an antique land&lt;br&gt;
+Who said: Two vast and trunkless legs of stone&lt;br&gt;
+Stand in the desert...Near them, on the sand,&lt;br&gt;
+Half sunk, a shattered visage lies, whose frown,&lt;br&gt;
+And wrinkled lip, and sneer of cold command,&lt;br&gt;
+Tell that its sculptor well those passions read&lt;br&gt;
+Which yet survive, stamped on these lifeless things,&lt;br&gt;
+The hand that mocked them, and the heart that fed:&lt;br&gt;
+And on the pedestal these words appear:&lt;br&gt;
+"My name is Ozymandias, king of kings:&lt;br&gt;
+Look on my works, ye Mighty, and despair!"&lt;br&gt;
+Nothing beside remains. Round the decay&lt;br&gt;
+Of that colossal wreck, boundless and bare&lt;br&gt;
+The lone and level sands stretch far away.&lt;p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h2>License</h2>
 
 <h1></h1>
 
