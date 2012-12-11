@@ -5,7 +5,7 @@ Schema.org lacks microdata specific towards literary works - that are not in boo
 
 [Schema.org](http://schema.org) offers a simple method for extending their core microdata classes and properties. [The Type Hierarchy](http://schema.org/docs/full.html) shows the current microdata hierarchy in a single file.
 
-Literary Works are extensions to the core CreativeWork class. These extensions are used with HTML5 attributes in conjunction with existing CreativeWork properties.
+Literary Works are extensions to the core CreativeWork class. These extensions are used with HTML5 or RDFa attributes in conjunction with existing CreativeWork properties.
 
 These extensions are allowed and encouraged by the Schema.org  [Extension Mechanism](http://schema.org/docs/extension.html) :
 
