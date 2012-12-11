@@ -75,13 +75,7 @@ The following are the currently proposed extensions. However, it is by no means 
 * ```http://schema.org/CreativeWork/LiteraryWork/SongLyric```
 * ```http://schema.org/CreativeWork/LiteraryWork/Libretto```
 
-### Illustrated
-====================
-* ```http://schema.org/CreativeWork/LiteraryWork/ChildrensBook```
-* ```http://schema.org/CreativeWork/LiteraryWork/GraphicNovel```
-* ```http://schema.org/CreativeWork/LiteraryWork/ComicBook```
-* ```http://schema.org/CreativeWork/LiteraryWork/Comic```
-* ```http://schema.org/CreativeWork/LiteraryWork/Manga```
+
 
 
 
