@@ -21,66 +21,62 @@ These extensions are allowed and encouraged by the Schema.org  [Extension Mechan
 The following are the currently proposed extensions. However, it is by no means complete.
 
 
-### Literary (Main Class)
-====================
-* ```http://schema.org/CreativeWork/LiteraryWork```
-
 ### Story
 ====================
-* ```http://schema.org/CreativeWork/LiteraryWork/Story```
-* ```http://schema.org/CreativeWork/LiteraryWork/Story/storyChapter```
-* ```http://schema.org/CreativeWork/LiteraryWork/ShortStory```
-* ```http://schema.org/CreativeWork/LiteraryWork/Parable```
-* ```http://schema.org/CreativeWork/LiteraryWork/Fable```
-* ```http://schema.org/CreativeWork/LiteraryWork/FolkTale```
-* ```http://schema.org/CreativeWork/LiteraryWork/Prose```
+* ```http://schema.org/CreativeWork/Story```
+* ```http://schema.org/CreativeWork/Story/storyChapter```
+* ```http://schema.org/CreativeWork/ShortStory```
+* ```http://schema.org/CreativeWork/Parable```
+* ```http://schema.org/CreativeWork/Fable```
+* ```http://schema.org/CreativeWork/FolkTale```
+* ```http://schema.org/CreativeWork/Prose```
 
 ### Poetry
 ====================
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Poem```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ideogramme```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Rhyme```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Verse```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/BlankVerse```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/FreeVerse```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/ConcreteVerse```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Sonnet```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Couplet```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ballad```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Haiku```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Tanka```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Limerick```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ode```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Ghazal```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Villanelle```
-* ```http://schema.org/CreativeWork/LiteraryWork/Poetry/Shi```
+* ```http://schema.org/CreativeWork/Poetry```
+* ```http://schema.org/CreativeWork/Poetry/Poem```
+* ```http://schema.org/CreativeWork/Poetry/Ideogramme```
+* ```http://schema.org/CreativeWork/Poetry/Rhyme```
+* ```http://schema.org/CreativeWork/Poetry/Verse```
+* ```http://schema.org/CreativeWork/Poetry/BlankVerse```
+* ```http://schema.org/CreativeWork/Poetry/FreeVerse```
+* ```http://schema.org/CreativeWork/Poetry/ConcreteVerse```
+* ```http://schema.org/CreativeWork/Poetry/Sonnet```
+* ```http://schema.org/CreativeWork/Poetry/Couplet```
+* ```http://schema.org/CreativeWork/Poetry/Ballad```
+* ```http://schema.org/CreativeWork/Poetry/Haiku```
+* ```http://schema.org/CreativeWork/Poetry/Tanka```
+* ```http://schema.org/CreativeWork/Poetry/Limerick```
+* ```http://schema.org/CreativeWork/Poetry/Ode```
+* ```http://schema.org/CreativeWork/Poetry/Ghazal```
+* ```http://schema.org/CreativeWork/Poetry/Villanelle```
+* ```http://schema.org/CreativeWork/Poetry/Shi```
 
 ### Nonfiction
 ====================
-* ```http://schema.org/CreativeWork/LiteraryWork/Epistle```
-* ```http://schema.org/CreativeWork/LiteraryWork/Memoir```
-* ```http://schema.org/CreativeWork/LiteraryWork/Biography```
-* ```http://schema.org/CreativeWork/LiteraryWork/Autobiography```
-* ```http://schema.org/CreativeWork/LiteraryWork/Essay```
-* ```http://schema.org/CreativeWork/LiteraryWork/Elegy```
-* ```http://schema.org/CreativeWork/LiteraryWork/Satire```
+* ```http://schema.org/CreativeWork/Epistle```
+* ```http://schema.org/CreativeWork/Memoir```
+* ```http://schema.org/CreativeWork/Biography```
+* ```http://schema.org/CreativeWork/Autobiography```
+* ```http://schema.org/CreativeWork/Essay```
+* ```http://schema.org/CreativeWork/Elegy```
+* ```http://schema.org/CreativeWork/Satire```
 
 ### Theatrical
 ====================
-* ```http://schema.org/CreativeWork/LiteraryWork/Play```
-* ```http://schema.org/CreativeWork/LiteraryWork/Play/playAct```
-* ```http://schema.org/CreativeWork/LiteraryWork/Play/playScene```
-* ```http://schema.org/CreativeWork/LiteraryWork/Play/musicalBook```
-* ```http://schema.org/CreativeWork/LiteraryWork/SongLyric```
-* ```http://schema.org/CreativeWork/LiteraryWork/Libretto```
+* ```http://schema.org/CreativeWork/Play```
+* ```http://schema.org/CreativeWork/Play/playAct```
+* ```http://schema.org/CreativeWork/Play/playScene```
+* ```http://schema.org/CreativeWork/Play/musicalBook```
+* ```http://schema.org/CreativeWork/SongLyric```
+* ```http://schema.org/CreativeWork/Libretto```
 
 
 ## Examples - Microdata + HTML 5
 ====================
 ### Used in a sentence:
 ```
-<p itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/FreeVerse">
+<p itemscope itemtype="http://schema.org/CreativeWork/FreeVerse">
   <span itemprop="name" lang="fr">Un Coup de Dés Jamais N'Abolira Le Hasard</span>—
   <link itemprop="url" href="http://coupdedes.com/">
   by <span itemprop="author" lang="fr">Stéphane Mallarmé</span> is one of the finest examples of free verse.
@@ -91,18 +87,18 @@ The following are the currently proposed extensions. However, it is by no means 
 ```
 [ ... ]
 <li>
-<b><span lang=fr>VERS</span></b> : <span itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/Story/Chapter"><a href="/oculus/1/1#oculusWorkTitle-page" itemprop="name">Zo&#235;; or, On the Clockwork Spheres of Paradise [<span lang=fr>Notre-Dame-de-Gr&#226;ce</span>]</a></span>.
+<b><span lang=fr>VERS</span></b> : <span itemscope itemtype="http://schema.org/CreativeWork/Story/Chapter"><a href="/oculus/1/1#oculusWorkTitle-page" itemprop="name">Zo&#235;; or, On the Clockwork Spheres of Paradise [<span lang=fr>Notre-Dame-de-Gr&#226;ce</span>]</a></span>.
 </li>
 [ ... ]
 ```
 
 ### Used in a single page:
 ```
-<div itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork">
+<div itemscope itemtype="http://schema.org/CreativeWork/">
 <p><span itemprop="name">Ozymandias</span><br>
 by <span itemprop="author">Percy Bysshe Shelley</span><br>
 [Published <meta itemprop="datePublished" content="1818-01-11">January 11, 1818]</p>
-<p itemscope itemtype="http://schema.org/CreativeWork/LiteraryWork/Poetry/Sonnet"> 
+<p itemscope itemtype="http://schema.org/CreativeWork/Poetry/Sonnet"> 
 I met a traveller from an antique land<br>
 Who said: Two vast and trunkless legs of stone<br>
 Stand in the desert...Near them, on the sand,<br>
